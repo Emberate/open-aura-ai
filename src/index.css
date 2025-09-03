@@ -53,11 +53,6 @@ All colors MUST be HSL.
     --text-secondary: 240 5% 64.9%;
     --text-muted: 240 3.8% 46.1%;
 
-    /* Shadows */
-    --shadow-elegant: 0 10px 30px -10px hsla(142, 76%, 36%, 0.3);
-    --shadow-glow: 0 0 40px hsla(142, 76%, 36%, 0.4);
-    --shadow-card: 0 4px 20px hsla(240, 10%, 4%, 0.3);
-
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-bounce: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -121,11 +116,11 @@ All colors MUST be HSL.
   }
   
   .shadow-glow {
-    box-shadow: var(--shadow-glow);
+    box-shadow: 0 0 40px hsl(var(--gradient-primary) / 0.4);
   }
   
   .shadow-elegant {
-    box-shadow: var(--shadow-elegant);
+    box-shadow: 0 10px 30px -10px hsl(var(--gradient-primary) / 0.3);
   }
   
   .transition-smooth {
