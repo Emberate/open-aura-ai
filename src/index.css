@@ -54,9 +54,9 @@ All colors MUST be HSL.
     --text-muted: 240 3.8% 46.1%;
 
     /* Shadows */
-    --shadow-elegant: 0 10px 30px -10px hsl(142.1 76.2% 36.3% / 0.3);
-    --shadow-glow: 0 0 40px hsl(142.1 76.2% 36.3% / 0.4);
-    --shadow-card: 0 4px 20px hsl(240 10% 3.9% / 0.3);
+    --shadow-elegant: 0 10px 30px -10px hsla(142, 76%, 36%, 0.3);
+    --shadow-glow: 0 0 40px hsla(142, 76%, 36%, 0.4);
+    --shadow-card: 0 4px 20px hsla(240, 10%, 4%, 0.3);
 
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
